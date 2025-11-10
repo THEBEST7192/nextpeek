@@ -14,9 +14,9 @@ export default function NavSimple() {
         <Link href="/faq" className="text-gray-600 hover:text-gray-900 font-bold">
           FAQ
         </Link>
-        <button className="px-4 py-2 text-white bg-[#1DB954] rounded-full transition-colors duration-300 hover:bg-[#1ed760]">
+        <Link href="#download" className="px-4 py-2 text-white bg-[#1DB954] rounded-full transition-colors duration-300 hover:bg-[#1ed760]">
           Download
-        </button>
+        </Link>
       </div>
     </nav>
   );
